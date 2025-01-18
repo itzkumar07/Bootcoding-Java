@@ -1,10 +1,10 @@
-package dayone;
+package dayone; // Package declaration
 
-public class Addition {
-    public static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 20;
-        int sum = num1 + num2;
-        System.out.println(sum);
+public class Addition { // Class declaration
+    public static void main(String[] args) { // Main method
+        int num1 = 10; // First number
+        int num2 = 20; // Second number
+        int sum = num1 + num2; // Calculate the sum
+        System.out.println(sum); // Print the sum
     }
 }
