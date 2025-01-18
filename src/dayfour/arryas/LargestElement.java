@@ -13,6 +13,7 @@ public class LargestElement {
                 smallest = arr[i];
             }
         }
+        
         System.out.println("The Largest Number in Array "+largest);
         System.out.println("The Smallest Number in Array "+smallest);
     }
