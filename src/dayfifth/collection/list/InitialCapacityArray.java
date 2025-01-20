@@ -10,6 +10,7 @@ public class InitialCapacityArray {
         list.add(i);
         System.out.println(list.size());
     }
+
     public void print(){
         for(int i : list){
             System.out.println(i);
