@@ -27,5 +27,4 @@ public class ArrayListExample {
         // Check size of the ArrayList
         System.out.println("Total fruits: " + fruits.size());
     }
-
 }
