@@ -14,31 +14,24 @@ public class AddArrayListSomeMethods {
             out.println(s);
         }
     }
-
     public int size(){
         return list.size();
     }
-
     public String get(int index){
         return list.get(index);
     }
-
     public void set(int index, String s){
         list.set(index, s);
     }
-
     public void remove(int index){
         list.remove(index);
     }
-
     public void clear(){
         list.clear();
     }
-
     public boolean isEmpty(){
         return list.isEmpty();
     }
-
     public boolean contains(String s){
         return list.contains(s);
     }
