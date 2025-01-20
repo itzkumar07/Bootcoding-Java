@@ -8,6 +8,7 @@ public class LargestSmallestElement {
         int smallest = arr[0];
 
         for (int i = 0; i < arr.length; i++){ // Conndition creation in the largest and smallest arrays
+
             if (arr[i] > largest){ // Largest array find it
                 largest = arr[i];
             }
