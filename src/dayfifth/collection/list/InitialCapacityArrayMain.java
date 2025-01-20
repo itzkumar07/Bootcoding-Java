@@ -1,5 +1,6 @@
 package dayfifth.collection.list;
-
+import java.util.ArrayList;
+import static java.lang.System.*;
 public class InitialCapacityArrayMain extends InitialCapacityArray {
     public static void main(String[] args) {
     InitialCapacityArrayMain initialCapacityArray = new InitialCapacityArrayMain();
@@ -8,7 +9,7 @@ public class InitialCapacityArrayMain extends InitialCapacityArray {
     initialCapacityArray.add(3);
 
     initialCapacityArray.print();
-    initialCapacityArray.Data(2);
+    initialCapacityArray.print();
 
     }
 }
