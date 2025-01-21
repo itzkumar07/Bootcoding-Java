@@ -4,7 +4,7 @@ import static java.lang.System.*;
 
 public class Operations {
     public void performRelationalOperations(int a, int b){
-        out.println("Realtional operations are: "  );
+        out.println("Relational operations are: "  );
         out.println("a > b: "+(a>b));
         out.println("a < b: "+(a<b));
         out.println("a >= b: "+(a>=b));
