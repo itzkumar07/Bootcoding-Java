@@ -8,7 +8,6 @@ public class MainArrayList {
         ArrayList<String> list = new ArrayList<>();
         list.add("Hello"); //size 1
         list.add("World"); //size 2
-
         for(String s : list){
             out.println(s);
         }
