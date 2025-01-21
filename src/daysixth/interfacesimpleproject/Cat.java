@@ -1,4 +1,4 @@
-package simple;
+package daysixth.interfacesimpleproject;
 import static java.lang.System.*;
 public class Cat implements Pet{
     @Override
