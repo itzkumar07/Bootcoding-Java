@@ -1,4 +1,4 @@
-package daysixth.basicjavaoperations;
+package daysixth.basicjavaoperationsproject;
 
 import static java.lang.System.*;
 
