@@ -9,12 +9,11 @@ public class AddArrayListSomeMethods {
     public void add(String s){
         list.add(s);
     }
-    public void print(){
-        for(String s : list){
+    public void print() {
+        for (String s : list) {
             out.println(s);
         }
     }
-
     public int size(){
         return list.size();
     }
