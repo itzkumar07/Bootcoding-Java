@@ -1,5 +1,7 @@
 package dayfifth.collection.list;
+
 import java.util.ArrayList;
+import static java.lang.System.*;
 
 public class MainArrayList {
     public static void main(String[] args) {
@@ -8,8 +10,8 @@ public class MainArrayList {
         list.add("World"); //size 2
 
         for(String s : list){
-            System.out.println(s);
+            out.println(s);
         }
-        System.out.println(list.size()); // all Size printing
+        out.println(list.size()); // all Size printing
     }
 }
