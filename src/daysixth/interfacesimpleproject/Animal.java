@@ -1,4 +1,4 @@
-package simple;
+package daysixth.interfacesimpleproject;
 
 public interface Animal {
     void eat();

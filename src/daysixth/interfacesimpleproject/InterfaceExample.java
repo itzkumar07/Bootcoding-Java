@@ -1,4 +1,4 @@
-package simple;
+package daysixth.interfacesimpleproject;
 
 public class InterfaceExample {
     public static void main(String[] args) {
