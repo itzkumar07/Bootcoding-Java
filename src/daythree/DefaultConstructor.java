@@ -1,5 +1,7 @@
 package daythree;
 
+import static java.lang.System.*;
+
 public class DefaultConstructor {
     int number;
 
@@ -9,6 +11,6 @@ public class DefaultConstructor {
 
     public static void main(String[] args) {
         DefaultConstructor obj = new DefaultConstructor();
-        System.out.println(obj.number);
+        out.println(obj.number);
     }
 }
