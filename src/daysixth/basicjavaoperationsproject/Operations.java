@@ -9,13 +9,14 @@ public class Operations {
         out.println("a < b: "+(a<b));
         out.println("a >= b: "+(a>=b));
     }
-    public void performLogicalOperations(boolean a, boolean b)
-    {
+
+    public void performLogicalOperations(boolean a, boolean b) {
         out.println("Logical operations are: ");
         out.println("a && b: "+(a&&b));
         out.println("a || b: "+(a||b));
         out.println("!a: "+(!a));
     }
+
     public void printOperations(){
         performLogicalOperations(true,true);
         performRelationalOperations(10,20);
