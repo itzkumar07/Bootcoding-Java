@@ -1,5 +1,7 @@
 package dayone;
 
+import static java.lang.System.*;
+
 public class Person {
     String name ;
     int age;
@@ -8,7 +10,8 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+
     public void displayDetails(){
-        System.out.println("Name:- "+name +", Age:- "+age);
+        out.println("Name:- "+name +", Age:- "+age);
     }
 }
