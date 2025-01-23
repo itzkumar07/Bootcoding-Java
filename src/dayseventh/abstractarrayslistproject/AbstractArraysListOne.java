@@ -1,4 +1,4 @@
-package daysventh.abstractarrayslistproject;
+package dayseventh.abstractarrayslistproject;
 
 public class AbstractArraysListOne extends AbstractArraysList {
     @Override

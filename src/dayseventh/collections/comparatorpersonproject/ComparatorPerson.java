@@ -1,4 +1,4 @@
-package daysventh.collections.comparatorpersonproject;
+package dayseventh.collections.comparatorpersonproject;
 
 class ComparatorPerson {
     String name;
