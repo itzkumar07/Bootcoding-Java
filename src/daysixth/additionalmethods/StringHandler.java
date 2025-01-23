@@ -14,14 +14,4 @@ public class StringHandler implements StringOperations{
         out.println(reversed);
         return reversed.toString();
     }
-
-    @Override
-    public void isPalindrome(String str){
-        out.println(str);
-    }
-
-    @Override
-    public void countVowels(String str) {
-        out.println(str);
-    }
 }

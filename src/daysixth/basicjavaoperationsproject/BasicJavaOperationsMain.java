@@ -3,7 +3,7 @@ package daysixth.basicjavaoperationsproject;
 import java.util.Arrays;
 import static java.lang.System.*;
 
-public class BasicJavaOperations {
+public class BasicJavaOperationsMain {
     public static void main(String[] args) {
         // Test array for ArrayOperations
         int[] sampleArray = {1, 2, 3, 4, 5};
