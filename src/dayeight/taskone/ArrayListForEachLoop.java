@@ -3,7 +3,7 @@ package dayeight.taskone;
 import java.util.ArrayList;
 import static java.lang.System.*;
 
-public class ArrayListForLoops {
+public class ArrayListForEachLoop {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(); //10
         list.add(1);
@@ -13,7 +13,7 @@ public class ArrayListForLoops {
         out.println(list);
 
         for (int i =0; i<list.size(); i++){
-            if (list.get(i)==2) {
+            if (list.get(i)==1) {
                 out.println(i +"True");
             }
             else {
