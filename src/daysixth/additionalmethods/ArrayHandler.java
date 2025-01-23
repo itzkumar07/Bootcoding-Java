@@ -16,14 +16,13 @@ public class ArrayHandler implements ArrayOperations {
     }
 
     @Override
-    public int findMin(int[] array){
+    public void findMin(int[] array){
         int min = array[0];
         for(int num : array){
             if(num < min){
                 min = num;
             }
         }
-        return min;
     }
 
     @Override
@@ -35,12 +34,9 @@ public class ArrayHandler implements ArrayOperations {
     }
 
     @Override
-    public double calculateAverage(int[] array){
-        int sum = 0;
-        for(int num : array){
-            sum += num;
+    public void calculateAverage(int[] array){
+        for(int ignored : array){
         }
-        return (double)sum / array.length;
     }
 
     public void printArrayHandler(int[] array){
