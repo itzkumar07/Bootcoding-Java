@@ -1,4 +1,4 @@
-package daysventh.collections.comparatorpersonproject;
+package dayseventh.collections.comparatorpersonproject;
 
 import java.util.*;
 import static java.lang.System.*;

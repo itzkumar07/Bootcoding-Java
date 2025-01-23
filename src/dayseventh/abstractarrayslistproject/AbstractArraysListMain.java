@@ -1,4 +1,4 @@
-package daysventh.abstractarrayslistproject;
+package dayseventh.abstractarrayslistproject;
 
 import static java.lang.System.*;
 
