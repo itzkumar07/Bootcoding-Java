@@ -7,7 +7,6 @@ public class ArraysStringAdditionalMethodsMain {
         StringHandler stringHandler = new StringHandler();
         stringHandler.getLength("Kumar");
         stringHandler.reverse("Kumar");
-
         ArrayHandler arrayHandler = new ArrayHandler();
         out.println(arrayHandler.findMax(new int[] {1,2,3,4,5,5,6,6}));
 
