@@ -9,9 +9,8 @@ public class StringHandler implements StringOperations{
     }
 
     @Override
-    public String reverse (String str){
+    public void reverse (String str){
         StringBuilder reversed = new StringBuilder(str).reverse();
         out.println(reversed);
-        return reversed.toString();
     }
 }
