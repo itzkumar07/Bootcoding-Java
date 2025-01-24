@@ -33,11 +33,11 @@ public class ArrayHandler implements ArrayOperations {
         out.println();
     }
 
-    @Override
-    public void calculateAverage(int[] array){
-        for(int ignored : array){
-        }
-    }
+    // @Override
+    // public void calculateAverage(int[] array){
+    //     for(int ignored : array){
+    //     }
+    // }
 
     public void printArrayHandler(int[] array){
         findMax(array);
