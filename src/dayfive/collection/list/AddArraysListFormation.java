@@ -6,6 +6,7 @@ import static java.lang.System.*;
 
 public class AddArraysListFormation {
     ArrayList<String> list = new ArrayList<>();
+    
     public void add(String s){
         list.add(s);
     }
