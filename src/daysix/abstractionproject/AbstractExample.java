@@ -7,12 +7,13 @@ public class AbstractExample {
         Animal dog = new Dog();
         dog.sound();
         dog.sleep();
-
+        dog.eat();
         out.println("======================");
 
         Animal cat = new Cat();
         cat.sound();
         cat.sleep();
+        cat.eat();
 
     }
 }

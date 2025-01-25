@@ -7,4 +7,9 @@ public class Dog extends Animal {
     void sound() {
         out.println("Dog is making sound");
     }
+
+    @Override
+    void eat() {
+        out.println("Dog is eating");
+    }
 }
