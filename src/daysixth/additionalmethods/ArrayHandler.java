@@ -33,16 +33,18 @@ public class ArrayHandler implements ArrayOperations {
         out.println();
     }
 
-    // @Override
-    // public void calculateAverage(int[] array){
-    //     for(int ignored : array){
-    //     }
-    // }
+    @Override
+    public void calculateAverage(int[] array){
+        for(int ignored : array){
+            out.println(ignored);
+        }
+    }
 
     public void printArrayHandler(int[] array){
         findMax(array);
         findMin(array);
         printArray(array);
         calculateAverage(array);
+        
     }
 }
