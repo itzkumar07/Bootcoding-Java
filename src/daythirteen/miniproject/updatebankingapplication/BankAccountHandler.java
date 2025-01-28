@@ -40,7 +40,6 @@ public class BankAccountHandler implements BankAccountOperations {
         } else {
             out.println("No transaction occured");
         }
-
     }
 
     @Override
@@ -60,7 +59,7 @@ public class BankAccountHandler implements BankAccountOperations {
         do {
             out.println("Enter an option");
             option = scanner.next().charAt(0);
-            Character.toUpperCase(option);
+            option = Character.toUpperCase(option);
 
             switch(option) {
                 case 'A':
