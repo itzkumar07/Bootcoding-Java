@@ -91,7 +91,7 @@ public class BankAccountHandler implements BankAccountOperations {
     }
 
     @Override
-    public void printAllvoidMethods() {
+    public void printMethods() {
         deposit(0);
         withdraw(0);
         getPreviousTransaction();

@@ -10,5 +10,5 @@ public interface BankAccountOperations  {
 
     void showMenu();
 
-    void printAllvoidMethods();
+    void printMethods();
 }
