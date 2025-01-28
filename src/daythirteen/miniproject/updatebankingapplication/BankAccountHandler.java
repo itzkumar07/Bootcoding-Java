@@ -17,7 +17,7 @@ public class BankAccountHandler implements BankAccountOperations {
     @Override
     public void deposit(double amount) {
         if (amount != 0) {
-            balance += amount;
+            balance += (int) amount;
             previousTransaction = (int) amount;
         } 
     }
@@ -45,7 +45,7 @@ public class BankAccountHandler implements BankAccountOperations {
 
     @Override
     public void showMenu() {
-        char option = '\0';
+        char option;
         Scanner scanner = new Scanner(System.in);
 
         out.println("Welcome to the bank!"+ customerName);
@@ -97,5 +97,4 @@ public class BankAccountHandler implements BankAccountOperations {
         getPreviousTransaction();
         showMenu();
     }
-    
 }
