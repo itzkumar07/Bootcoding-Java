@@ -38,7 +38,7 @@ public class BankAccountHandler implements BankAccountOperations {
         } else if (previousTransaction < 0) {
             out.println("Withdrawn: " + Math.abs(previousTransaction));
         } else {
-            out.println("No transaction occured");
+            out.println("No transaction occurred");
         }
     }
 
