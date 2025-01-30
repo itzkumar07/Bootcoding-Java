@@ -1,5 +1,5 @@
 package daythree;
-
+import static java.lang.System.*;
 public class ParameterizedConstructor {
     int number;
     String text;
@@ -11,6 +11,6 @@ public class ParameterizedConstructor {
 
     public static void main(String[] args) {
         ParameterizedConstructor obj = new ParameterizedConstructor(2,"Kumar");
-        System.out.println(obj.number+" "+obj.text);
+        out.println(obj.number+" "+obj.text);
     }
 }

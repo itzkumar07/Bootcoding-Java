@@ -1,5 +1,5 @@
 package dayone;
-
+import static java.lang.System.*;
 public class variable_example1 {
     public static void main(String[] args) {
         int num =10;
@@ -7,16 +7,16 @@ public class variable_example1 {
         double decimal = 3.14;
         var inferred = "inferred";
 
-        System.out.println("--"+num);
-        System.out.println("--"+text);
-        System.out.println("--"+decimal);
-        System.out.println("--"+inferred);
+        out.println("--"+num);
+        out.println("--"+text);
+        out.println("--"+decimal);
+        out.println("--"+inferred);
 
-        System.out.println();
+        out.println();
 
-        System.out.println(num+" "+text);  //Concationation
-        System.out.println(text+" "+decimal);//Concationation
-        System.out.println(decimal+" "+inferred);//Concationation
-        System.out.println(inferred+" "+num);
+        out.println(num+" "+text);  //Concationation
+        out.println(text+" "+decimal);//Concationation
+        out.println(decimal+" "+inferred);//Concationation
+        out.println(inferred+" "+num);
     }
 }

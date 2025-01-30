@@ -1,5 +1,5 @@
 package dayone;
-
+import static java.lang.System.*;
 class VariablesExample {
     public static void main(String[] args) {
         int age = 25;
@@ -17,10 +17,10 @@ class VariablesExample {
         String name = "Rahul";
         // String variable
 
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Height: " + height);
-        System.out.println("Grade: " + grade);
-        System.out.println("Passed: " + isPass);
+        out.println("Name: " + name);
+        out.println("Age: " + age);
+        out.println("Height: " + height);
+        out.println("Grade: " + grade);
+        out.println("Passed: " + isPass);
     }
 }

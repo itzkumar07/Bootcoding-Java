@@ -1,5 +1,6 @@
 package dayfour.arryas;
 
+import static java.lang.System.*;
 public class ArrayCountEvenOdd {
     public static void main(String[] args) {
         int [] arr = {1,232,33,43,54,6,778,8,9,10};
@@ -11,11 +12,11 @@ public class ArrayCountEvenOdd {
             }else {
                 OddCount++;
             }
-            System.out.println(arr[i]);
+            out.println(arr[i]);
         }
-        System.out.println(arr.length);
-        System.out.println("Even Count: " + EvenCount);
-        System.out.println("Odd Count: " + OddCount);
+        out.println(arr.length);
+        out.println("Even Count: " + EvenCount);
+        out.println("Odd Count: " + OddCount);
 
     }
 }
