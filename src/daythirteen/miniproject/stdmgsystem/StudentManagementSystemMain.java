@@ -7,15 +7,15 @@ import static java.lang.System.*;
 public class StudentManagementSystemMain {
     private ArrayList<Student> students;
 
-    public StudentManagementSystemMain() {
+    StudentManagementSystemMain() {
         students = new ArrayList<>();
     }
 
-    public void addStudent(int id, String name, int age) {
+    void addStudent(int id, String name, int age) {
         students.add(new Student(id, name, age));
     }
 
-    public void displayStudents() {
+    void displayStudents() {
         if (students.isEmpty()) {
             out.println("No students available.");
         } else {
