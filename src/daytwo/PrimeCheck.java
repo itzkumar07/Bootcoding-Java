@@ -1,12 +1,12 @@
 package daytwo;
-
+import static java.lang.System.*;
 public class PrimeCheck {
     public static void main(String[] args) {
         int number = 29;
         if (isPrime(number)){
-            System.out.println("Number is prime");
+            out.println("Number is prime");
         } else {
-            System.out.println("Number is not prime");
+            out.println("Number is not prime");
         }
     }
 

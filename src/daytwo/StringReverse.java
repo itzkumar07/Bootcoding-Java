@@ -1,9 +1,9 @@
 package daytwo;
-
+import static java.lang.System.*;
 public class StringReverse {
     public static void main(String[] args) {
         String str = "Hello, World!";
-        System.out.println("Reversed string: "+ reverseString(str));
+        out.println("Reversed string: "+ reverseString(str));
     }
 
     public static  String reverseString(String str){

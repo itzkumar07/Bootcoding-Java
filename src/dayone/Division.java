@@ -1,5 +1,6 @@
 package dayone;
 
+import static java.lang.System.*;
 public class Division {
     public static void main(String[] args) {
         int dividend = 10;
@@ -8,7 +9,7 @@ public class Division {
         int quotient = dividend / divisor;
         int remainder = dividend % divisor;
 
-        System.out.println("Quotient: "+ quotient);
-        System.out.println("Remainder: "+ remainder);
+        out.println("Quotient: "+ quotient);
+        out.println("Remainder: "+ remainder);
     }
 }

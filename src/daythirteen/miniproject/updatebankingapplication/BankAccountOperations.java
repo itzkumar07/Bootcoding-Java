@@ -1,6 +1,6 @@
 package daythirteen.miniproject.updatebankingapplication;
 
-public interface BankAccountOperations  {
+public interface BankAccountOperations {
 
     void deposit(double amount);
 
