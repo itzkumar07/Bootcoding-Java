@@ -110,7 +110,6 @@ public class BankAccountHandler implements BankAccountOperations {
         scanner.close();
     }
 
-    // Method to view the passbook-like transaction history
     private void viewPassbook() {
         if (transactionHistory.isEmpty()) {
             out.println("No transactions yet.");
