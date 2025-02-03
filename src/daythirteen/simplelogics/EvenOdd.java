@@ -9,7 +9,10 @@ public class EvenOdd {
         out.println("Enter a number");  
         int number = scanner.nextInt();
         
+<<<<<<< HEAD
+=======
 
+>>>>>>> 255f6e85ab3ca1ac3af622af92d206b42db58dc0
         if (number % 2 == 0) {
             out.println("Even number");
         } else {
