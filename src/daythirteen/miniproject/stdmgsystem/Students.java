@@ -1,14 +1,16 @@
 package daythirteen.miniproject.stdmgsystem;
 
-public class Student {
+public class Students {
     private int id;
     private String name;
     private int age;
+    private String city;
 
-    Student(int id, String name, int age) {
+    Students(int id, String name, int age, String city) {
         this.id = id;
         this.name = name;
         this.age = age;
+        this.city = city;
     }
 
     int getId() {
@@ -34,9 +36,12 @@ public class Student {
     void setAge(int age) {
         this.age = age;
     }
+    void setCity(String city){
+        this.city = city;
+    }
 
     @Override
     public String toString() {
-        return "ID: " + id + ", Name: " + name + ", Age: " + age;
+        return "ID: " + id + ", Name: " + name + ", Age: " + age+ "city";
     }
 }

@@ -2,64 +2,64 @@ package daythirteen.miniproject.stdmgsystem;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import static java.lang.System.*;   
+import static java.lang.System.*;
+
 
 public class StudentManagementSystemMain {
-    private ArrayList<Student> students;
 
-    StudentManagementSystemMain() {
-        students = new ArrayList<>();
+    public static ArrayList<Students> students = new ArrayList<>();
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void addStudent() {
+
+        out.println("Enter Your Id");
+        int id = scanner.nextInt();
+
+        out.println("Enter Your Name");
+        String name = scanner.next();
+
+        out.println("Enter Your Age");
+        int age = scanner.nextInt();
+
+        out.println("Enter Your City");
+        String city = String.valueOf(scanner.nextInt());
+
+        students.add(new Students(id, name, age, city));
     }
 
-    void addStudent(int id, String name, int age) {
-        students.add(new Student(id, name, age));
-    }
-
-    void displayStudents() {
+    public static void veiwStudent() {
         if (students.isEmpty()) {
-            out.println("No students available.");
+            out.println("Studnets not found");
         } else {
-            for (Student student : students) {
-                out.println(student);
+            for (int i = 0; i < students.size(); i++) {
+                out.println(students.get(i));
             }
         }
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        StudentManagementSystemMain sms = new StudentManagementSystemMain();
+    public static void updateStudent() {
+        out.println("Enter ID");
+        int id = scanner.nextInt();
+        for (int i = 0; i < students.size(); i++) {
+            Students s = students.get(i);
+           
+            if (s.getId() == id){
+                scanner.nextLine();
 
-        while (true) {
-            out.println("1. Add Student");
-            out.println("2. Display Students");
-            out.println("3. Exit");
-            out.print("Choose an option: ");
-            int choice = scanner.nextInt();
+                out.println("Enter your Name: ");
+                String name = scanner.nextLine();
 
-            switch (choice) {
-                case 1:
-                    out.print("Enter student ID: ");
-                    int id = scanner.nextInt();
-                    scanner.nextLine();  // consume newline
-                    out.print("Enter student name: ");
-                    String name = scanner.nextLine();
-                    out.print("Enter student age: ");
-                    int age = scanner.nextInt();
-                    sms.addStudent(id, name, age);
-                    break;
+                out.println("Enter your age");
+                int age = scanner.nextInt();
 
-                case 2:
-                    sms.displayStudents();
-                    break;
-
-                case 3:
-                    out.println("Exiting...");
-                    scanner.close();
-                    return;
-
-                default:
-                    out.println("Invalid choice! Try again.");
+                out.println("Enter your City");
+                String city= scanner.nextLine();
+                
+                s.setName(name);
+                s.setAge(age);
+                s.setCity(city);
             }
         }
     }
 }
+    
