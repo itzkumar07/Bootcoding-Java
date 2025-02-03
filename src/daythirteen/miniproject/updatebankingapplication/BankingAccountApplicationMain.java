@@ -6,6 +6,5 @@ public class BankingAccountApplicationMain {
 
         bankAccountHandler.printMethods(); 
         bankAccountHandler.printMethods(); // Calling method to initiate the banking operations
-
     }
 }
