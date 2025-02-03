@@ -9,7 +9,6 @@ public class EvenOdd {
         out.println("Enter a number");  
         int number = scanner.nextInt();
         
-
         if (number % 2 == 0) {
             out.println("Even number");
         } else {
