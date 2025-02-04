@@ -4,10 +4,16 @@ package daythirteen.simplelogics;
 class Main{
     public static void main(String [] args){
 
-        Example obj = new Example();
-        System.out.println(Example.count);
+
 
         int result = SaticCalculator.add(4,6);
         System.out.println(result);
+
+        StaticOuter.Inner inner = new StaticOuter.Inner();
+        inner.display();
+
+        StaticOuter.Inner inner1 = new StaticOuter.Inner();
+        inner1.display();
+
     }
 }
