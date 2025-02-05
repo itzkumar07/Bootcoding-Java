@@ -1,4 +1,4 @@
-package daythirteen.abstractionsimpleproject;
+package daythirteen.miniproject.abstractionsimpleproject;
 
 import static java.lang.System.*;
 

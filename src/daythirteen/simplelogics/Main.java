@@ -1,13 +1,12 @@
 package daythirteen.simplelogics;
 
+import static java.lang.System.*;
 
 class Main{
     public static void main(String [] args){
 
-
-
         int result = SaticCalculator.add(4,6);
-        System.out.println(result);
+        out.println(result);
 
         StaticOuter.Inner inner = new StaticOuter.Inner();
         inner.display();
