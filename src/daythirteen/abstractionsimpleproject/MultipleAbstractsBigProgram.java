@@ -1,6 +1,6 @@
 package daythirteen.abstractionsimpleproject;
 
-import static java.lang.System.out;
+import static java.lang.System.*;
 
 // Main class to run the program
 public class MultipleAbstractsBigProgram {
