@@ -1,4 +1,4 @@
-package daythirteen.miniproject.bankingapplication;
+package miniproject.bankingapplication;
 
 import static java.lang.System.*;
 import java.util.Scanner;

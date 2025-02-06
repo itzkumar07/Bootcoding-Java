@@ -1,4 +1,4 @@
-package daythirteen.miniproject.abstractionsimpleproject;
+package miniproject.abstractionsimpleproject;
 
 abstract class LandVehicle extends Vehicle {
     public LandVehicle(String brand, String model) {

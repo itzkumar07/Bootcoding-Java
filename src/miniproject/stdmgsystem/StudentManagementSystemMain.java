@@ -1,4 +1,4 @@
-package daythirteen.miniproject.stdmgsystem;
+package miniproject.stdmgsystem;
 
 import java.util.ArrayList;
 import java.util.Scanner;

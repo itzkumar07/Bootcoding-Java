@@ -1,4 +1,4 @@
-package daythirteen.miniproject.todolistapplication;
+package miniproject.todolistapplication;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package daythirteen.miniproject.updatebankingapplication;
+package miniproject.updatebankingapplication;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

@@ -1,4 +1,4 @@
-package daythirteen.miniproject.stdmgsystem;
+package miniproject.stdmgsystem;
 
 public class Students {
     private int id;

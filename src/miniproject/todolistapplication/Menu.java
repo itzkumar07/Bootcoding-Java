@@ -1,4 +1,4 @@
-package daythirteen.miniproject.todolistapplication;
+package miniproject.todolistapplication;
 
 import java.util.Scanner;
 import static java.lang.System.*;
