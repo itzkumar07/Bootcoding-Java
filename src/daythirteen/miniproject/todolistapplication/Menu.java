@@ -7,7 +7,7 @@ public class Menu {
     private final ToDoList toDoList = new ToDoList();
     private final Scanner scanner = new Scanner(System.in);
 
-    public void showMenu() {
+    void showMenu() {
         boolean running = true;
 
         while (running) {
