@@ -20,16 +20,13 @@ public class StudentManagementSystemMain {
             int choice = scanner.nextInt();
 
             switch (choice) {
-                case 1 -> addStudent();
-                case 2 -> viewStudents();
-                case 3 -> updateStudent();
-                case 4 -> deleteStudent();
-                case 5 -> searchStudent();
-                case 6 -> {
-                    out.println("Exiting...");
-                    return;
-                }
-                default -> out.println("Invalid choice! Please try again.");
+                case 1: addStudent(); break;
+                case 2: viewStudents(); break;
+                case 3: updateStudent(); break;
+                case 4: deleteStudent(); break;
+                case 5: searchStudent(); break;
+                case 6: out.println("Exiting..."); return;
+                default: out.println("Invalid choice! Please try again.");
             }
         }
     }
@@ -45,7 +42,7 @@ public class StudentManagementSystemMain {
         int age = scanner.nextInt();
 
         out.print("Enter Student City: ");
-        scanner.nextLine();  // Consume the leftover newline
+        scanner.nextLine();
         String city = scanner.nextLine();
 
         students.add(new Students(id, name, age, city));
@@ -56,8 +53,8 @@ public class StudentManagementSystemMain {
         if (students.isEmpty()) {
             out.println("No students found.");
         } else {
-            for (Students student : students) {
-                out.println(student);
+            for (int i = 0; i < students.size(); i++) {
+                out.println(students.get(i));
             }
         }
     }
@@ -65,73 +62,55 @@ public class StudentManagementSystemMain {
     public static void updateStudent() {
         out.print("Enter Student ID to update: ");
         int id = scanner.nextInt();
-        Students studentToUpdate = null;
 
-        for (Students s : students) {
-            if (s.getId() == id) {
-                studentToUpdate = s;
-                break;
+        for (int i = 0; i < students.size(); i++) {
+            if (students.get(i).getId() == id) {
+                scanner.nextLine();
+                out.print("Enter new Name: ");
+                String name = scanner.nextLine();
+
+                out.print("Enter new Age: ");
+                int age = scanner.nextInt();
+
+                out.print("Enter new City: ");
+                scanner.nextLine();
+                String city = scanner.nextLine();
+
+                students.get(i).setName(name);
+                students.get(i).setAge(age);
+                students.get(i).setCity(city);
+
+                out.println("Student details updated successfully!");
+                return;
             }
         }
-
-        if (studentToUpdate != null) {
-            scanner.nextLine();  // Consume leftover newline
-
-            out.print("Enter new Name: ");
-            String name = scanner.nextLine();
-
-            out.print("Enter new Age: ");
-            int age = scanner.nextInt();
-
-            out.print("Enter new City: ");
-            scanner.nextLine();  // Consume leftover newline
-            String city = scanner.nextLine();
-
-            studentToUpdate.setName(name);
-            studentToUpdate.setAge(age);
-            studentToUpdate.setCity(city);
-
-            out.println("Student details updated successfully!");
-        } else {
-            out.println("Student not found.");
-        }
+        out.println("Student not found.");
     }
 
     public static void deleteStudent() {
         out.print("Enter Student ID to delete: ");
         int id = scanner.nextInt();
-        Students studentToRemove = null;
 
-        for (Students s : students) {
-            if (s.getId() == id) {
-                studentToRemove = s;
-                break;
+        for (int i = 0; i < students.size(); i++) {
+            if (students.get(i).getId() == id) {
+                students.remove(i);
+                out.println("Student record deleted successfully!");
+                return;
             }
         }
-
-        if (studentToRemove != null) {
-            students.remove(studentToRemove);
-            out.println("Student record deleted successfully!");
-        } else {
-            out.println("Student not found!");
-        }
+        out.println("Student not found!");
     }
 
     public static void searchStudent() {
         out.print("Enter Student ID to search: ");
         int id = scanner.nextInt();
-        boolean found = false;
 
-        for (Students s : students) {
-            if (s.getId() == id) {
-                out.println("Student found: " + s);
-                found = true;
-                break;
+        for (int i = 0; i < students.size(); i++) {
+            if (students.get(i).getId() == id) {
+                out.println("Student found: " + students.get(i));
+                return;
             }
         }
-
-        if (!found) {
-            out.println("Student not found!");
-        }
+        out.println("Student not found!");
     }
 }
