@@ -16,7 +16,7 @@ public class BankAccount {
 
     void deposit(double amount) {
         if (amount != 0) {
-            balance += amount;
+            balance += (int) amount;
             previousTransaction = (int) amount;
         }   
     }
@@ -34,7 +34,7 @@ public class BankAccount {
         } else if (previousTransaction < 0) {
             out.println("Withdrawn: " + Math.abs(previousTransaction));
         } else {
-            out.println("No transaction occured");
+            out.println("No transaction occurred");
         }
     }
 

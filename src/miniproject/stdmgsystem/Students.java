@@ -6,42 +6,47 @@ public class Students {
     private int age;
     private String city;
 
-    Students(int id, String name, int age, String city) {
+    public Students(int id, String name, int age, String city) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.city = city;
     }
 
-    int getId() {
+    public int getId() {
         return id;
     }
 
-    void setId(int id) {
-        this.id = id;
-    }
-
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    void setName(String name) {
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 
-    int getAge() {
+    public int getAge() {
         return age;
     }
 
-    void setAge(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
-    void setCity(String city){
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
         this.city = city;
     }
 
     @Override
     public String toString() {
-        return "ID: " + id + ", Name: " + name + ", Age: " + age+ "city";
+        return "ID: " + id + ", Name: " + name + ", Age: " + age + ", City: " + city;
     }
 }
