@@ -1,4 +1,4 @@
-package daythirteen.miniproject.abstractionsimpleproject;
+package miniproject.abstractionsimpleproject;
 
 
 abstract class AirVehicle extends Vehicle{

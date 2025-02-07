@@ -1,4 +1,4 @@
-package daythirteen.miniproject.bankingapplication;
+package miniproject.bankingapplication;
 
 public class BankingApplication {
     public static void main(String[] args) {

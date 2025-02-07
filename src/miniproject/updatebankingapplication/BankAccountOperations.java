@@ -1,4 +1,4 @@
-package daythirteen.miniproject.updatebankingapplication;
+package miniproject.updatebankingapplication;
 
 public interface BankAccountOperations {
 

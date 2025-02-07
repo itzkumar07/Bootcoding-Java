@@ -1,4 +1,4 @@
-package daythirteen.miniproject.todolistapplication;
+package miniproject.todolistapplication;
 
 import java.util.ArrayList;
 import static java.lang.System.*;
@@ -7,12 +7,12 @@ public class ToDoList {
     private final ArrayList<Task> tasks = new ArrayList<>();
 
     // Method to add a task with priority
-    public void addTask(String description, String priority) {
+    void addTask(String description, String priority) {
         tasks.add(new Task(description, priority));
         out.println("✅ Task added successfully with priority: " + priority);
     }
 
-    public void removeTask(int index) {
+    void removeTask(int index) {
         if (index >= 0 && index < tasks.size()) {
             tasks.remove(index);
             out.println("✅ Task removed successfully!");
@@ -21,7 +21,7 @@ public class ToDoList {
         }
     }
 
-    public void displayTasks() {
+    void displayTasks() {
         if (tasks.isEmpty()) {
             out.println("📌 No tasks available.");
         } else {
@@ -34,7 +34,7 @@ public class ToDoList {
         }
     }
 
-    public void markTaskAsCompleted(int index) {
+    void markTaskAsCompleted(int index) {
         if (index >= 0 && index < tasks.size()) {
             tasks.get(index).markCompleted();
             out.println("✅ Task marked as completed!");
@@ -43,7 +43,7 @@ public class ToDoList {
         }
     }
 
-    public boolean isEmpty() {
+    boolean isEmpty() {
         return tasks.isEmpty();
     }
 }

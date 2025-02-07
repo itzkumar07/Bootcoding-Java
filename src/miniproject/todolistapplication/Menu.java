@@ -1,4 +1,4 @@
-package daythirteen.miniproject.todolistapplication;
+package miniproject.todolistapplication;
 
 import java.util.Scanner;
 import static java.lang.System.*;
@@ -7,7 +7,7 @@ public class Menu {
     private final ToDoList toDoList = new ToDoList();
     private final Scanner scanner = new Scanner(System.in);
 
-    public void showMenu() {
+    void showMenu() {
         boolean running = true;
 
         while (running) {

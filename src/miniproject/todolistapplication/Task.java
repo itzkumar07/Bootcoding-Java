@@ -1,4 +1,4 @@
-package daythirteen.miniproject.todolistapplication;
+package miniproject.todolistapplication;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
