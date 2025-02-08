@@ -20,18 +20,32 @@ public class StudentManagementSystemMain {
             int choice = scanner.nextInt();
 
             switch (choice) {
-                case 1: addStudent(); break;
-                case 2: viewStudents(); break;
-                case 3: updateStudent(); break;
-                case 4: deleteStudent(); break;
-                case 5: searchStudent(); break;
-                case 6: out.println("Exiting..."); return;
-                default: out.println("Invalid choice! Please try again.");
+                case 1:
+                    addStudent();
+                    break;
+                case 2:
+                    viewStudents();
+                    break;
+                case 3:
+                    updateStudent();
+                    break;
+                case 4:
+                    deleteStudent();
+                    break;
+                case 5:
+                    searchStudent();
+                    break;
+                case 6:
+                    out.println("Exiting...");
+                    return;
+                default:
+                    out.println("Invalid choice! Please try again.");
             }
         }
     }
 
     public static void addStudent() {
+
         out.print("Enter Student ID: ");
         int id = scanner.nextInt();
 
@@ -105,10 +119,10 @@ public class StudentManagementSystemMain {
         out.print("Enter Student ID to search: ");
         int id = scanner.nextInt();
 
-        for (int i = 0; i < students.size(); i++) {
-            if (students.get(i).getId() == id) {
-                out.println("Student found: " + students.get(i));
-                return;
+        for (Students student : students) {
+            if (student.getId() == id) {
+                out.println("Student found: " + student);
+
             }
         }
         out.println("Student not found!");
