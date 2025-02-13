@@ -6,7 +6,7 @@ import static java.lang.System.*;
 public class LinkedListExample {
     public static void main(String[] args) {
         LinkedList<String> cities = new LinkedList<>();
-
+        
         // 1. Adding elements
         cities.add("Hyderabad");
         cities.add("Bangalore");
