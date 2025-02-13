@@ -1,11 +1,12 @@
-package miniproject.jsonprojects;
+package jsonprojects;
 
-import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import static java.lang.System.*;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 
 public class Filehandling {

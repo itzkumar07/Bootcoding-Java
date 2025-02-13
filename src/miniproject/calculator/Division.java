@@ -1,4 +1,4 @@
-package miniproject.calculator;
+package calculator;
 
 public class Division implements Operation {
     @Override

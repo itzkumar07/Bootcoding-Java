@@ -1,4 +1,4 @@
-package miniproject.calculator;
+package calculator;
 
 public class Calculator {
     public double calculate(double num1, double num2, char operator) {

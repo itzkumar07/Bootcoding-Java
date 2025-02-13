@@ -1,4 +1,4 @@
-package miniproject.updatebankingapplication;
+package updatebankingapplication;
 
 public class BankingAccountApplicationMain {
     public static void main(String[] args) {

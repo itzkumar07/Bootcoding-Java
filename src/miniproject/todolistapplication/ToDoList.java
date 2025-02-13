@@ -1,4 +1,4 @@
-package miniproject.todolistapplication;
+package todolistapplication;
 
 import java.util.ArrayList;
 import static java.lang.System.*;

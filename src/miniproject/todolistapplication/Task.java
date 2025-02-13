@@ -1,4 +1,4 @@
-package miniproject.todolistapplication;
+package todolistapplication;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

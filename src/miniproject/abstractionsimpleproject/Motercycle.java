@@ -1,9 +1,9 @@
-package miniproject.abstractionsimpleproject;
+package abstractionsimpleproject;
 
 import static java.lang.System.*;
 
-public class Motercycle extends LandVehicle{
-    public Motercycle(String brand, String model){
+class Motorcycle extends LandVehicle {
+    public Motorcycle(String brand, String model) {
         super(brand, model);
     }
 

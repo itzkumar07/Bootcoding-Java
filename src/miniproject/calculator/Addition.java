@@ -1,4 +1,4 @@
-package miniproject.calculator;
+package calculator;
 
 // Addition.java
 public class Addition implements Operation {

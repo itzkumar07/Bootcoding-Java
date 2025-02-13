@@ -1,4 +1,4 @@
-package miniproject.updatebankingapplication;
+package updatebankingapplication;
 
 public interface BankAccountOperations {
 

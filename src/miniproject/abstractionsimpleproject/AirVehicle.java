@@ -1,8 +1,7 @@
-package miniproject.abstractionsimpleproject;
+package abstractionsimpleproject;
 
-
-abstract class AirVehicle extends Vehicle{
-    AirVehicle(String brand, String model){
+abstract class AirVehicle extends Vehicle {
+    AirVehicle(String brand, String model) {
         super(brand, model);
     }
 

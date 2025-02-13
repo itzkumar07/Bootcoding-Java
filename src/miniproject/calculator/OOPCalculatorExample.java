@@ -1,4 +1,4 @@
-package miniproject.calculator;
+package calculator;
 
 public class OOPCalculatorExample {
     public static void main(String[] args) {

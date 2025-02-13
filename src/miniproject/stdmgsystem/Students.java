@@ -1,4 +1,4 @@
-package miniproject.stdmgsystem;
+package stdmgsystem;
 
 public class Students {
     private final int id;

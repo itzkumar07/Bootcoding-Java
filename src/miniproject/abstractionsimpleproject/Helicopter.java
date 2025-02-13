@@ -1,24 +1,24 @@
-package miniproject.abstractionsimpleproject;
+package abstractionsimpleproject;
 
 import static java.lang.System.*;
 
-public class Helicopter extends AirVehicle{
-    public Helicopter(String brand, String model){
+class Helicopter extends AirVehicle {
+    public Helicopter(String brand, String model) {
         super(brand, model);
     }
 
     @Override
-    public void startEngine(){
+    public void startEngine() {
         out.println("Helicopter rotor started.");
     }
 
     @Override
-    public void stopEngine(){
-        out.println("Helicopter rotor stopped");
+    public void stopEngine() {
+        out.println("Helicopter rotor stopped.");
     }
 
     @Override
     public void fly() {
-        out.println("Helicopter is hovering is sky.");
+        out.println("Helicopter is hovering in the sky.");
     }
 }
