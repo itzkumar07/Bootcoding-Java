@@ -12,7 +12,6 @@ public class ComparatorPersonMain {
                 new ComparatorPerson("Adeeb", 25)
         );
 
-        // Sort using a Comparator
         people.sort(Comparator.comparingInt(c -> c.age));
 
         // Print sorted list

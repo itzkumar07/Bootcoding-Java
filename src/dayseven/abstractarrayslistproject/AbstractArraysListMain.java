@@ -9,6 +9,7 @@ public class AbstractArraysListMain {
 
         AbstractArraysListTwo list2 = new AbstractArraysListTwo();
         out.println(list2);
-        
+        list1.print();
+
     }
 }
