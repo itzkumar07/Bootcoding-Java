@@ -17,7 +17,7 @@ public class ArrayListExample {
         out.println("Fruits: " + fruits);
 
         // Access an element
-        out.println("First fruit: " + fruits.get(0));
+        out.println("First fruit: " + fruits.getFirst());
 
         // Remove an element
         fruits.remove("Banana");
