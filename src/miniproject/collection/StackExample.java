@@ -29,7 +29,7 @@ public class StackExample {
             out.println("Top element: " + topElement);          
         }
 
-        //4. Pop elements
+        //4. Pop elements  
         int popElements = stack.pop();
         out.println("Popped element: " + popElements);
     }
