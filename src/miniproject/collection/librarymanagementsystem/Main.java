@@ -40,7 +40,7 @@ public class Main {
         returnBook.push(books.get(3));
         out.println(returnBook);
 
-        PriorityQueue<Book> bookrequest = new PriorityQueue<>(Comparator.comparing(b-> b.Bookid));
+        PriorityQueue<Book> bookrequest = new PriorityQueue<>(Comparator.comparing(b-> b.bookId));
         out.println(bookrequest+"1");
     }
 }

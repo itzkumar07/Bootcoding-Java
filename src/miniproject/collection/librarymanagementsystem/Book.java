@@ -1,21 +1,21 @@
 package collection.librarymanagementsystem;
 
 public class Book {
-    int Bookid;
-    String Title;
-    String Author;
-    public Book(int Bookid, String Title, String Author) {
-        this.Bookid = Bookid;
-        this.Title = Title;
-        this.Author = Author;
+    int bookId;
+    String title;
+    String author;
+    public Book(int bookId, String title, String author) {
+        this.bookId = bookId;
+        this.title = title;
+        this.author = author;
     }
 
     @Override
     public String toString() {
         return "Book{" +
-                "Bookid=" + Bookid +
-                ", Title='" + Title + '\'' +
-                ", auhaur='" + Author + '\'' +
+                "bookId=" + bookId +
+                ", Title='" + title + '\'' +
+                ", auhaur='" + author + '\'' +
                 '}';
     }
 }
