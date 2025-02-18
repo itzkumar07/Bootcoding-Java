@@ -1,4 +1,4 @@
-package miniproject.collection;
+package collection;
 
 import java.util.Vector;
 import static java.lang.System.*;
