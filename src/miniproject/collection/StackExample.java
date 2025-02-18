@@ -1,4 +1,4 @@
-package miniproject.collection;
+package collection;
 
 import java.util.Scanner;
 import java.util.Stack;
