@@ -1,4 +1,4 @@
-package miniproject.collection.librarymanagementsystem;
+package collection.librarymanagementsystem;
 
 import java.util.*;
 
@@ -9,8 +9,6 @@ public class Main {
 
         //List initialization Tow Classes Using
 
-
-        LinkedList<Student> students= new LinkedList<>();
         ArrayList<Book> books = new ArrayList<>();
 
         books.add(new Book(101, "Java Progamming","jannes bond"));
@@ -35,7 +33,7 @@ public class Main {
         out.println(issueBooks);
 
         //
-        Stack<Book> returnBook = new Stack<>();
+        Deque<Book> returnBook = new ArrayDeque<>();
         returnBook.push(books.get(0));
         returnBook.push(books.get(1));
         returnBook.push(books.get(2));

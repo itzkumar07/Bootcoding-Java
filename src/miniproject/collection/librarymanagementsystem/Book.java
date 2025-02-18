@@ -1,4 +1,4 @@
-package miniproject.collection.librarymanagementsystem;
+package collection.librarymanagementsystem;
 
 public class Book {
     int Bookid;
