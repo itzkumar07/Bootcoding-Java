@@ -1,4 +1,4 @@
-package collection;
+package miniproject.collection;
 
 import java.util.LinkedList;
 import static java.lang.System.*;
