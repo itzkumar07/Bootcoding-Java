@@ -1,19 +1,19 @@
-package collection.librarymanagementsystem;
+package librarymanagementsystem;
 
 public class Student {
-    int studentId ;
-    String stdnetName;
+    int Studentid ;
+    String Studentname;
 
-    public Student(int studentId, String stdnetName) {
-        this.studentId = studentId;
-        this.stdnetName = stdnetName;
+    public Student(int studentid, String studentname) {
+        this.Studentid = studentid;
+        this.Studentname = studentname;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "Studentid=" + studentId +
-                ", Studentname='" + stdnetName + '\'' +
+                "Studentid=" + Studentid +
+                ", Studentname='" + Studentname + '\'' +
                 '}';
     }
 }
