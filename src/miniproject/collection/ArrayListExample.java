@@ -1,4 +1,4 @@
-package collection;
+// package miniproject.collection;
 
 import java.util.ArrayList;
 import static java.lang.System.*;
