@@ -1,5 +1,3 @@
-package collection;
-
 import java.util.Vector;
 import static java.lang.System.*;
 
